@@ -4,10 +4,10 @@ public class HomeWork2
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		System.out.print("华氏度是 : ");
+		System.out.print("鍗庢皬搴︿负 : ");
 		double tF = input.nextInt();     
 		double t=(tF-32)/1.8;
-    System.out.println("摄氏度是 : "+t);
+    System.out.println("鎽勬皬搴︿负脟 : "+t);
 		
 	}
 }	
