@@ -8,25 +8,25 @@ public class Studying
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		System.out.println("请输入星期几:");
+		System.out.println("Please enter a date(For example:Sun):");
 		String week = input.next();
 		switch (week)
 		{
-		case "一":
-		case "三":
-		case "五":
-			System.out.println("学习编程");
+		case "Mon":
+		case "Wed":
+		case "Fri":
+			System.out.println("Learning programming");
 			break;
-		case "二":
-		case "四":
-		case "六":
-			System.out.println("学习英语");
+		case "Tues":
+		case "Thu":
+		case "Sat":
+			System.out.println("Learning English");
 			break;
-		case "日":
-			System.out.println("休息");
+		case "Sun":
+			System.out.println("Resting");
 			break;
 		default:
-			System.out.println("您输入的不正确,请重新输入!");
+			System.out.println("You have not entered correctly. Please re-enter!");
 			break;
 		}
 	}
