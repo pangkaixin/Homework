@@ -7,6 +7,9 @@ public class Week
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		boolean week=true;
+		while(week)
+		{
 		System.out.println("请输入一个星期所对应的数字(1~7):");
 		int num = input.nextInt();
 		switch (num)
@@ -35,6 +38,7 @@ public class Week
 			default:
 				 System.out.println("您的输入有误,请重新输入!");
 				 break;
+		}	 
 		}
 		input.close();
 	}
