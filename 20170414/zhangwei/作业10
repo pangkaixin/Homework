@@ -1,0 +1,9 @@
+public class StringDelete
+{
+	public static void main(String[] args)
+	{
+		StringBuffer a=new StringBuffer("asdascsddce");
+		a.delete(1,3);
+		System.out.println(a.toString());		
+	}
+}
