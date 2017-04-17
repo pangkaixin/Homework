@@ -1,5 +1,5 @@
 ### **其然软件课后作业提交方法**
-- **第一步：在eclipse中导入git工程，url为[https://github.com/Cheer201704/Homework][1]，分支分支master；**
+- **第一步：在eclipse中导入git工程，url为[https://github.com/Cheer201704/Homework][1]，选择分支master；**
 - **第二步：在相应的作业文件夹下新建文件夹，名字为自己的名字（汉语拼音全拼）；**
 - **第三步：将自己的作业文件拷贝到该目录下；**
 - **第四步：在git提交视图中，将新文件从未存储区拖到存储区；**
