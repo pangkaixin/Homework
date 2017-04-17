@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class WeekDayWork{
+	public static void main(String[] args)
+	{
+		Scanner sc=null;
+		String  zifucuan="";
+		String	zizifucuan="";
+		
+		sc=new Scanner(System.in);
+		System.out.print("请输入字符串：");
+		zifucuan=sc.next();
+		System.out.print(zifucuan);
+		System.out.print("请输入要查找的字符串：");
+		zizifucuan=sc.next();
+			if(zifucuan.indexOf(zizifucuan)==-1){  
+            System.out.println("没有找到指定内容");  
+        }else{  
+            System.out.println("可以找到指定内容");  
+        }  	
+		for(int i=0;i<zifucuan.length();i++)
+		{
+			String s=zifucuan.substring(i,i+1);		
+			if(zizifucuan.equals(s))
+			{
+				System.out.println("在下标为"+i+"时 出现该字符");	
+			}
+		}
+		sc.close();
+		}
+		}
