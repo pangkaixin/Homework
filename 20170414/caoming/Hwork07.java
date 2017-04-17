@@ -8,10 +8,11 @@ public class Hwork07
 {
 	public static void main(String[] args)
 	{
-		Scanner sc=new Scanner(System.in);
-		System.out.print("数字：");
-		int nub=sc.nextInt();
-		String str=""+nub;
-		System.out.print(str+str);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入一个数字:");
+		int num = sc.nextInt();
+		String str = String.valueOf(num);
+		System.out.println(String.valueOf(num));
+		
 	}
 }
