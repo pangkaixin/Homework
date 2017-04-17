@@ -1,0 +1,11 @@
+public class baozhuang;
+{
+	public static void main(String[] args)
+	{
+		int i =88;
+    	Integer a =i;
+    	String b =a.toString();
+		System.out.println(b);
+		
+	}
+}

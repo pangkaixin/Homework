@@ -1,0 +1,9 @@
+public class  StrReverse
+{
+	public static void main(String []args)
+	{ 
+   	StringBuffer buf = new StringBuffer("abcdef"); 
+     
+      System.out.println(buf.reverse().toString()); 
+   }
+}

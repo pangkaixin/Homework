@@ -1,0 +1,9 @@
+public class StringReplace
+{
+	public static void main(String[] args)
+	{
+		StringBuffer words=new StringBuffer("abcdefa");	
+		words.replace("a","d");
+		System.out.println(words.toString());
+	}
+}
